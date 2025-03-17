@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:wght@300&display=swap');
+
+
+body{
+    background: url(/img/how_we_work/Vintage\ film\ \(1\)\ 1\ \(2\).png);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-position: center;
+    color: white;
+}
+
+.overlayimage{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    top: 75px;
+    left: 13%;
+}
+
+.header{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    top: -16px;
+    left: 405px;
+    position: absolute;
+    font-size: 55px;
+    font-weight: 100;
+    text-shadow: 2px 12px 12px rgba(0, 0, 0, 0.947);
+    font-style: italic;
+}
+
+.class1{
+    top: 235px;
+    left: 285px;
+    position: absolute;
+    font-size: 17px;
+
+}
+.container{
+    margin-top: 700px;
+}
+.class2{
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 100px;
+    color: white;
+    top: 390px;
+    left: 115px;
+    position: absolute;
+    font-size: 19px;
+    font-style: italic;
+}
+.class3{
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 0px;
+    padding-right: 60px;
+    color: white;
+    top: 640px;
+    left: 115px;
+    position: absolute;
+    font-size: 19px;
+    font-style: italic;
+}
+.class4{
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 0px;
+    padding-right: 70px;
+    color: white;
+    top: 890px;
+    left: 115px;
+    position: absolute;
+    font-size: 19px;
+    font-style: italic;
+}
+.class5{
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 0px;
+    padding-right: 65px;
+    color: white;
+    top: 1140px;
+    left: 115px;
+    position: absolute;
+    font-size: 19px;
+    font-style: italic;
+}
+.class6{
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 0px;
+    padding-right: 57px;
+    color: white;
+    top: 1390px;
+    left: 115px;
+    position: absolute;
+    font-size: 19px;
+    font-style: italic;
+}
+.class7{
+    top: 1715px;
+    left: 460px;
+    position: absolute;
+    font-size: 17px;
+}

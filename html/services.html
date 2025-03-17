@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+       
+   
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:wght@300&display=swap');
+
+
+        body{
+            background-image: url(/img/services/Vintage\ film\ \(1\)\ 1\ \(2\).png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment:scroll;
+            background-size: cover;
+        }
+
+        .overlay-img {
+            position: absolute; /* Changed from fixed to absolute */
+            top: 50%; /* Center vertically */
+            margin-top: 120px;
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Adjusts centering */
+            opacity: 0.3;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .heading {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+             font-style: normal;
+            margin-top: 7%;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+            font-weight: bold;
+            font-style: italic;
+            color: white;
+            /* text-shadow: 
+                4px 4px 0 black, 
+                8px 8px 0 rgba(0, 0, 0, 0.5); Creates a layered shadow */
+            font-size: 65px;
+            text-shadow: 2px 12px 12px rgba(0, 0, 0, 0.947);
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            grid-template-rows: auto auto; /* Two rows */
+            gap: 40px; /* Adjusts the space between cards */
+            justify-items: center; /* Centers items within the grid */
+            align-items: center; /* Aligns items properly */
+            position: relative;
+            margin-top: -25px; /* Adjust based on your layout */
+        }
+
+        .cards{
+            margin-top: 200px;
+            width: 300px;
+            overflow: hidden;
+
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            cursor: pointer;
+            box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.2) ;
+        }
+
+        .cards img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .cards:nth-child(2) {
+            grid-column: 2; 
+            grid-row: 1;
+        }
+
+        .cards:nth-child(4) {
+            grid-column: 2;
+            grid-row: 3; 
+            margin-top: -50px; 
+        }
+
+        .cards:hover{
+            transform: scale(1.1);
+            box-shadow: 
+            0px 0px 15px rgba(255, 255, 255, 0.5), 
+            0px 0px 25px rgba(255, 255, 255, 0.3),
+            0px 0px 35px rgba(255, 255, 255, 0.2);
+        }
+
+        .container:hover .cards:not(:hover){
+            opacity: 0.3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="overlay-img"><img src="/img/services/heart-147246_1280.png" alt="" height = "700"></div>
+
+    <main>
+        <div class="heading";"><h1>SERVICES</h1></div>
+        <div class="container">
+            <div class="cards"><a href="/html/mutual_aid.html"><img src="/img/services/Group 4.png" alt=""></a></div>
+            <div class="cards"><a href="/html/community.html"><img src="/img/services/Group 3.png" alt=""></a></div>
+            <div class="cards"><a href="#"><img src="/img/services/Group 9.png" alt=""></a></div>
+            <div class="cards"><a href="#"><img src="/img/services/Group 5.png" alt=""></a></div>
+        </div>
+    </main>
+</body>
+</html>
